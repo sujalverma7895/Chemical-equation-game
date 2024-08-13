@@ -1,0 +1,131 @@
+body{ 
+  margin: 0;
+}
+.main-wraper{
+  width: 100%
+}
+.main{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+
+
+}
+.left-side{
+  background-color: rgb(233,230,230);
+  height: 600px;
+  width: 580px;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+.image1{
+  height: 450px;
+  width: 550px;
+  border: 2px solid rgb(151,152,162);
+  background-color: white;
+  border-radius: 5px;
+}
+.right-side{
+  height: 700px;
+  width: 250px;
+  padding-top: 60px;
+  position: relative;
+}
+.left-topic{
+  font-size: 16px;
+}
+.left-equation{
+  font-weight: 600;
+}
+.right-first-p{
+  font-weight: 500;
+  width: 200px;
+}
+.right-second-p{
+  font-size: 12px;
+  font: italic;
+}
+.right-third-p{
+  font-weight: 500;
+  width: 250px;
+}
+.submit-button{
+  width: 160px;
+  height: 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(10, 113, 231);
+  color: white;
+  font-size: 25px;
+}
+.none{
+  display: none;
+}
+.right-popup{
+  position: absolute; 
+  top:0px;
+  left: 50px;
+   width: 850px;
+   height: 60px;
+   background-color: rgba(200, 247, 194, 0.938);
+   border-bottom: 1px solid green;
+}
+.wrong-popup{
+  position: absolute; 
+  top:0px;
+  left: 50px;
+   width: 850px;
+   height: 60px;
+   background-color: rgba(247, 194, 194, 0.938);
+   border-bottom: 1px solid red;
+}
+.next{
+  width: 160px;
+  height: 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(2, 28, 53);
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.retry{
+  width: 160px;
+  height: 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(2, 28, 53);
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.right-side-button{
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.reset{
+  width: 80px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.281);
+
+}
+.info{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.281);
+}
